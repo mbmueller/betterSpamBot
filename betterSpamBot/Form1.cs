@@ -39,24 +39,24 @@ namespace betterSpamBot
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (!msg0.Text.Equals(""))
+            if (!textBox0.Text.Equals(""))
             {
-                SendKeys.Send(msg0.Text);
+                SendKeys.Send(textBox0.Text);
                 SendKeys.Send("{Enter}");
             }
-            if (!msg1.Text.Equals(""))
+            if (!textBox1.Text.Equals(""))
             {
-                SendKeys.Send(msg1.Text);
+                SendKeys.Send(textBox1.Text);
                 SendKeys.Send("{Enter}");
             }
-            if (!msg2.Text.Equals(""))
+            if (!textBox2.Text.Equals(""))
             {
-                SendKeys.Send(msg2.Text);
+                SendKeys.Send(textBox2.Text);
                 SendKeys.Send("{Enter}");
             }
-            if (!msg3.Text.Equals(""))
+            if (!textBox3.Text.Equals(""))
             {
-                SendKeys.Send(msg3.Text);
+                SendKeys.Send(textBox3.Text);
                 SendKeys.Send("{Enter}");
             }
         }
